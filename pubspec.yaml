@@ -1,0 +1,41 @@
+name: protfolio_app
+description: A new Flutter project.
+
+version: 1.0.0
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flare_flutter: ^2.0.2
+
+  cupertino_icons: ^0.1.2
+  url_launcher: ^5.4.0
+  font_awesome_flutter: 8.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.7.3"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - animations/bg.flr
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+    - family: Source Sans Pro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "icon/icon.png"
