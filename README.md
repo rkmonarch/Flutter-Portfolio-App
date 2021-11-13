@@ -4,7 +4,7 @@ This is a simple developer portfolio app made using flutter.
 
 ## Demo
 
-<img src="images/demo.jpg" width="360" alt="App Demo">
+<img src="images/demo.png" width="360" alt="App Demo">
 
 ## Usage
 
