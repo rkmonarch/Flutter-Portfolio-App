@@ -158,7 +158,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                                   const EdgeInsets.fromLTRB(40, 10, 40, 10),
                               child: Row(
                                 mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
+                                    MainAxisAlignment.spaceAround,
                                 children: <Widget>[
                                   Icon(
                                     Icons.phone,
@@ -185,7 +185,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                             elevation: 5,
                             child: Padding(
                               padding:
-                                  const EdgeInsets.fromLTRB(40, 10, 40, 10),
+                                  const EdgeInsets.fromLTRB(50, 10, 40, 10),
                               child: Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceAround,
